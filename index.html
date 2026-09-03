@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quantum infotech</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> Successful
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="logo">
+            <img src="images/aradhan.png" alt="Website Logo">
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact" >contact us</a>
+        </nav>
+
+    </header>
+   
+    <!-- SLIDER -->
+    <section class="slider" id="home">
+
+        <div class="slide active">
+            <img src="images/slide1.jpg" alt="Slide 1">
+            <div class="slide-content">
+                <h1>CCTV Camera Systems</h1>
+                <p>2MP, 4MP & 4K HD camera systems that keep every corner of your home or business under watch, day and night.</p>
+                <a href="#explore" class="btn">explore</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/slide2.jpg" alt="Slide 2">
+            <div class="slide-content">
+                <h1>Solar Water Heaters</h1>
+                <p>Sustainable solar water heating systems that cut power bills while delivering hot water all year round.</p>
+                <a href="#services" class="btn">OurServices</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/slide3.jpg" alt="Slide 3">
+            <div class="slide-content">
+                <h1>Biometric Access Control</h1>
+                <p>Fingerprint and biometric attendance systems that keep entry secure and staff attendance accurate.</p>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+                <div class="slide">
+            <img src="images/slide4.jpg" alt="Slide 3">
+            <div class="slide-content">
+                <h1>Electrical Services</h1>
+                <p>Wiring, panels and complete electrical installations, executed safely by our certified technicians.</p>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+        
+        <!-- Previous / Next buttons -->
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+        <!-- Dots -->
+        <div class="dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+             <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </section>
+     
+
+    <!-- ABOUT ---->
+    <section class="section" id="about">
+
+        <h2>About Us</h2>
+
+        <p>
+          Based in Hebbal, Mysuru, Aradhana Solutions has grown into a trusted single-window partner for security, power backup and IT infrastructure — serving homes, offices and institutions across the city. From CCTV and biometric access to solar water heaters and fire alarm systems, our expert technicians handle sales, installation, service and AMC, so every system keeps working long after it's switched on. Our promise is simple: high quality products, expert technicians, and support.
+        </p>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="service-container">
+
+            <div class="service-box" style="background-color: lightblue;"">
+                <h3>CCTV camera systems</h3>
+                <p>2MP / 4MP / 4K HD</p>
+            </div>
+
+            <div class="service-box" style= "background-color: lightblue;">
+                <h3>Solar Water Heater</h3>
+                <p>eco friendly</p>
+            </div>
+
+            <div class="service-box" style= "background-color: lightblue;">
+                <h3>Biometric Access</h3>
+                <p>Secure Entry</p>
+            </div>
+            <div class="service-box " style="background-color: lightblue;">
+                <h3>Electrical Services</h3>
+                <p>Wiring, panels and complete electrical installations</p>
+            </div>
+            <div class="service-box" style="background-color: lightblue;">
+                 <h3>fire alarm systems</h3>
+                 <p>safety & security</p>
+        </div>
+    </section>
+        
+    <!-- Gallery Heading -->
+    <section class="gallery-heading">
+              <p>OUR WORK</p>
+                  <h2>Gallery</h2>
+             <div class="underline"></div>
+    </section>
+
+        <!----gallery ====>-->
+
+    </section>
+       <section class="gallery">
+          
+          <div class="gallery-item">
+                <img src="images/cctv.jpg" alt="CCTV">
+                <h3>CCTV Installation</h3>
+          </div>
+
+         <div class="gallery-item">
+         <img src="images/computer.jpg" alt="Computer">
+                <h3>Computer Setup</h3>
+        </div>
+
+        <div class="gallery-item">
+        <img src="images/solar.jpg" alt="Solar">
+        <h3>Solar Heater Install</h3>
+        </div>
+
+        <div class="gallery-item">
+        <img src="images/ups.jpg" alt="UPS">
+        <h3>UPS Backup Room</h3>
+        </div>
+
+       <div class="gallery-item">
+        <img src="images/router.jpg" alt="Router">
+        <h3>Networking</h3>
+       </div>
+       
+       <div class="gallery-item">
+        <img src="images/biometric.jpg" alt="biometric">
+        <h3>Biometric device </h3>
+       </div>
+
+       <div class="gallery-item">
+        <img src="images/electricalpanel.jpg" alt="electrical pannel">
+           <h3>Electrical Panel </h3>
+       </div>
+       <div class="gallery-item">
+        <img src="images/firealarm.jpg" alt="firealarm">
+        <h3>fire alarm pannel </h3>
+       </div>
+    
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: janardhan2003@gmail.com</p>
+        <p>Phone: +91 8792265721</p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            © 2026 My Website. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
